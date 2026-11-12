@@ -13,14 +13,14 @@ Este repositorio aloja el análisis, el diseño y el control del proyecto: model
 | Rol | Nombre |
 |---|---|
 | Autora | Kiara Calegari |
-| Revisión de pares (Pull Request) | (completar con el nombre y el usuario de GitHub) |
+| Revisión de pares (Pull Request n.º 5) | Pendiente de asignar |
 | Docente titular | Carolina Bruno |
 | Coordinadora de la materia | Gabriela Martínez |
 | Docente tutor | Francisco Varberde |
 
 ## Enlaces
 
-- **Tablero de gestión (GitHub Projects):** (completar con la URL del tablero)
+- **Tablero de gestión (GitHub Projects):** [TPI Portalú](https://github.com/users/kiara13408-blip/projects/2)
 
 ## Contenido
 
@@ -96,10 +96,10 @@ Las historias se gestionan en el tablero de GitHub Projects con las columnas **P
 
 ## Flujo de trabajo en Git
 
-- La rama `main` se mantiene estable: después del commit inicial, los cambios entran solo por Pull Request.
-- Cada tarea tiene su rama (`docs/entregas-1-a-3`, `docs/bpmn-fase-1`, `docs/bpmn-fase-2`, `docs/bpmn-fase-3`, `docs/estados-del-pedido`, `docs/indicadores-de-control`, `docs/declaracion-ia`).
-- Los commits siguen el formato `tipo: descripción en infinitivo`, por ejemplo `docs: agregar diagrama BPMN de confirmación y cobro`.
-- El Pull Request de `docs/bpmn-fase-1` se revisa por pares con la lista de verificación de [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md).
+- La rama `main` se mantiene estable: después de la carga inicial de la documentación, los cambios entran solo por Pull Request.
+- Los cambios posteriores se hacen en ramas con el prefijo `docs/`; por ejemplo, `docs/declaracion-ia` (Pull Request n.º 5).
+- Los commits siguen el formato `tipo: descripción en infinitivo`, por ejemplo `docs: completar el enlace del tablero en el README`. Los commits de la carga inicial tienen mensajes genéricos; el formato se adoptó a partir del Pull Request.
+- El Pull Request n.º 5 se revisa con la lista de verificación de [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md).
 
 ## Declaración de Uso de IA
 
